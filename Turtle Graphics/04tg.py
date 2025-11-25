@@ -1,0 +1,15 @@
+from turtle import *
+title("Turtle Graphics example")
+bgcolor("lightgreen")
+speed(5)
+setup(600,400)
+shape("turtle")
+pencolor("brown")
+width(3)
+begin_fill()
+fillcolor("yellow")
+for i in range(4):
+    forward(100)
+    left(90)
+end_fill()    
+done()
