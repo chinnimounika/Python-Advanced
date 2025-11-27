@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+payment_method=StringVar(value="cash")
+vb1=Radiobutton(root,text="CASH",variable=payment_method,value="cash")
+vb1.pack(anchor=W)
+vb2=Radiobutton(root,text="CHEQUE",variable=payment_method,value="cheque")
+vb2.pack(anchor=W)
+vb3=Radiobutton(root,text="DD",variable=payment_method,value="dd")
+vb3.pack(anchor=W)
+root.mainloop()
