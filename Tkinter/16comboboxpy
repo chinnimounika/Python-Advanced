@@ -1,0 +1,9 @@
+from tkinter import *
+from tkinter import ttk
+root=Tk()
+root.title("Combobox Eample")
+combobox=ttk.Combobox()
+combobox['values']=("PEN","PENCIL","BOOK")
+combobox.current(0)
+combobox.pack()
+mainloop()
